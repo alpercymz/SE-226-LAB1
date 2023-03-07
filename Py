@@ -1,0 +1,39 @@
+#Q1
+
+name = input("What's your name? ")
+print("Hello, " + name + "!")
+student_id = input("What's your student ID? ")
+print("Your student ID is: " + student_id)
+
+
+#Q2:
+
+var1 = int(input("Enter var1: "))
+var2 = int(input("Enter var2: "))
+sum = var1 + var2
+diff = var1 - var2
+prod = var1 * var2
+print("var1= ", var1)
+print("var2= ", var2)
+print("sum= ", sum)
+print("difference= ", diff)
+print("product= ", prod)
+
+
+#Q3:
+
+name = input("Student name: ")
+lab = float(input("Lab grade: "))
+midterm = float(input("Midterm grade: "))
+final = float(input("Final grade: "))
+last_score = lab * 0.25 + midterm * 0.35 + final * 0.4
+print("Name: ", name)
+print("Lab: ", lab)
+print("Midterm: ", midterm)
+print("Final: ", final)
+print("Last score: ", last_score)
+
+
+#Q4:
+
+print("*\n**\n***\n**\n*")
